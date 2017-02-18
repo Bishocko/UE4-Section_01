@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\Section_01.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{2A209CA7-FE58-4B88-9A88-A25E3A4466D3}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Section_01.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\Section_01Editor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{583D51CD-2D40-48C6-A426-1760DDE858B9}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Section_01">
+			<UniqueIdentifier>{DD1C73D0-3A35-45ED-9F15-65183C991F75}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Section_01\Section_01.Build.cs">
+			<Filter>Source\Section_01</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Section_01\Section_01.cpp">
+			<Filter>Source\Section_01</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Section_01\Section_01.h">
+			<Filter>Source\Section_01</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Section_01\Section_01GameModeBase.cpp">
+			<Filter>Source\Section_01</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Section_01\Section_01GameModeBase.h">
+			<Filter>Source\Section_01</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
